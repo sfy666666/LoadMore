@@ -1,12 +1,12 @@
 # LoadMore
 BaseRecyclerViewAdapterHelper实现下拉刷新上拉加载
 
-#####app中的build.gradle文件中添加依赖
+##### app中的build.gradle文件中添加依赖
 ```
 implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
 ```
-#####build.gradle添加配置
+##### build.gradle添加配置
 ```
 allprojects {
     repositories {
@@ -18,7 +18,7 @@ allprojects {
 ```
 
 
-#####MainActivity中代码
+##### MainActivity中代码
 ```
 package net.te.loadmore;
 
